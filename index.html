@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budi Kristianto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f77a7a;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77d5d5 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        nav {
+            text-align: center;
+        }
+        .banner {
+            background: url('banner.jpg') no-repeat center center/cover;
+            color: #0f0000;
+            height: 100px;
+            text-align: center;
+            padding-top: 10px;
+            font-size: 30px;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .profile-img {
+            float: left;
+            margin-right: 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .experience, .contact {
+            margin-top: 20px;
+            padding: 20px;
+            background: #fff;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        form input[type="submit"] {
+            background: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>portofolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Beranda</a></li>
+                    <li><a href="#about">Tentang</a></li>
+                    <li><a href="#experience">Pengalaman</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="container">
+            <h2>Selamat Datang di Profil Saya</h2>
+        </div>
+    </div>
+
+    <div class="container content" id="home">
+        <img src="FotoProfil.jpg.jpeg" alt="Foto Profil" class="profile-img">
+        <h2 id="about">Nama Saya</h2>
+        <p>Ini adalah bagian tentang saya. Saya seorang Mahasiswa di salah satu Kampus di Samarinda, Saya tertarik pada hal-hal seperti teknologi, desain, dan pengembangan web.</p>
+        
+    </div>
+
+    <div class="container experience" id="experience">
+        <h2>Lulusan Sekolah</h2>
+        <ul>
+            <li>SDN 013 - Samarinda - 2011-2017</li>
+            <li>SMPN 32 - Samarinda - 2017-2020</li>
+            <li>SMAN 15 - Samarinda - 2020-2023</li>
+        </ul>
+    </div>
+
+    <div class="container contact" id="contact">
+        <h2>Hubungi Saya</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Nama" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" rows="5" placeholder="Pesan" required></textarea>
+            <input type="submit" value="Kirim">
+        </form>
+    </div>
+
+    <div class="social-icons">
+        <a href="https://www.facebook.com/budikristianto.budi.75?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://x.com/budikristiant0?t=kQpONJfkaAly-1NA0oK4hA&s=08" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/budikrist_?igsh=YXN5bzQ1cWhkbzRp" target="_blank"><i class="fab fa-instagram"></i></a>
+        
+    </div>
+
+    <footer>
+        <p>Hubungi saya di: kristiantobudi1001@gmail.com</p>
+        <p>Copyright &copy; 2024 Budi</p>
+    </footer>
+</body>
+</html>
